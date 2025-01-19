@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coaching Website</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <script src="script.js"></script>
+    <!-- Header Section -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#testimonials">Testimonials</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <h1>Welcome to Vikash Classes</h1>
+        <h4> Address= Nautanwa is adjacent to Thasil, Distic-Maharajganj </h4>
+        <p>Transform Your Life with Expert Coaching</p>
+    </header>
+
+    <!-- Services Section -->
+    <section id="services">
+        <h2>Our Coaching Services</h2>
+        <div class="service-box">
+            <h3>Life Coaching</h3>
+            <p>We help you achieve your personal goals and overcome obstacles in your life.</p>
+        </div>
+        <div class="service-box">
+            <h3>Career Coaching</h3>
+            <p>Boost your career by unlocking your full potential with professional guidance.</p>
+        </div>
+        <div class="service-box">
+            <h3>Wellness Coaching</h3>
+            <p>Improving mental and physical health for a balanced and fulfilling life.</p>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials">
+        <h2>What Our Clients Say</h2>
+        <div class="testimonial">
+            <p>"The coaching helped me achieve more than I ever thought possible! Highly recommend!" - Client A</p>
+        </div>
+        <div class="testimonial">
+            <p>"I have never felt more confident and empowered. Thank you for your support!" - Client B</p>
+        </div>
+    </section>
+
+    <!-- Contact Form Section -->
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form id="contactForm" onsubmit="return validateForm()">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+
+            <button type="submit">Send Message</button>
+        </form>
+        <p id="formStatus"></p>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Coaching Services | All Rights Reserved</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
